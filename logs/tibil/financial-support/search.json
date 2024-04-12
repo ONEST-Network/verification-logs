@@ -1,0 +1,32 @@
+{
+    "context": {
+        "domain": "{{onest_financial_support}}",
+        "location": {
+            "city": {
+                "name": "Bangalore",
+                "code": "std:080"
+            },
+            "country": {
+                "name": "India",
+                "code": "IND"
+            }
+        },
+        "action": "search",
+        "version": "{{core_version}}",
+        "bap_id": "{{bap_id}}",
+        "bap_uri": "{{bap_uri}}",
+        "transaction_id": "{{$randomUUID}}",
+        "message_id": "{{$randomUUID}}",
+        "timestamp": "2023-02-06T09:55:41.161Z",
+        "ttl": "PT10M"
+    },
+    "message": {
+        "intent": {
+            "item": {
+                "descriptor": {
+                    "name": ""
+                }
+            }
+        }
+    }
+}
