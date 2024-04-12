@@ -1,0 +1,42 @@
+{
+    "context": {
+        "domain": "{{onest_financial_support}}",
+        "location": {
+            "city": {
+                "name": "Bangalore",
+                "code": "std:080"
+            },
+            "country": {
+                "name": "India",
+                "code": "IND"
+            }
+        },
+        "action": "select",
+        "version": "{{core_version}}",
+        "bap_id": "{{bap_id}}",
+        "bap_uri": "{{bap_uri}}",
+        "bpp_id": "{{bpp_id}}",
+        "bpp_uri": "{{bpp_uri}}",
+        "transaction_id": "{{$randomUUID}}",
+        "message_id": "{{$randomUUID}}",
+        "timestamp": "2023-02-06T09:55:41.161Z",
+        "ttl": "PT10M"
+    },
+    "message": {
+        "order": {
+            "provider": {
+                "id": "BX213573733"
+            },
+            "fulfillments": [
+                {
+                    "id": "DSEP_FUL_63587501"
+                }
+            ],
+            "items": [
+                {
+                    "id": "24233"
+                }
+            ]
+        }
+    }
+}
